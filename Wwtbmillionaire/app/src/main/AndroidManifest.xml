@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dkotenko.wwtbmillionaire.wwtbmillionaire">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_millionaire"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/w_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameActivity"
+            android:theme="@style/w_game" />
+        <activity
+            android:name=".LoseActivity"
+            android:theme="@style/w_loseBackground" />
+        <activity
+            android:name=".WinActivity"
+            android:theme="@style/w_win"/>
+    </application>
+
+</manifest>

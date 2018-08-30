@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="w_menu" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/menu_background</item>
+        <item name="android:textColor">#0b848c</item>
+        <item name="android:buttonStyle">@style/w_menuButton</item>
+    </style>
+    <style name="w_menuButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/hbutton</item>
+    </style>
+
+
+    <style name="w_game" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/game_background</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:buttonStyle">@style/w_gameButton</item>
+    </style>
+    <style name="w_gameButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/gbutton</item>
+    </style>
+    <style name="w_gameButtonPressed" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/gbutton_pressed</item>
+    </style>
+    <style name="w_gameButtonRight" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/rbutton</item>
+    </style>
+
+    <style name="w_loseBackground" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/lose_background</item>
+        <item name="android:buttonStyle">@style/w_loseButton</item>
+    </style>
+    <style name="w_loseButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/lbutton</item>
+    </style>
+
+    <style name="w_win" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/win_background</item>
+        <item name="android:buttonStyle">@style/w_winButton</item>
+    </style>
+    <style name="w_winButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/wbutton</item>
+    </style>
+
+</resources>

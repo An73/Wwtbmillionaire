@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Wwtbmillionaire</string>
+    <string name="menu_start">Начать</string>
+    <string name="menu_exit">Выход</string>
+    <string name="menu_descript">Logo</string>
+
+
+    <string name="l1">1.   $100</string>
+    <string name="l2">2.   $200</string>
+    <string name="l3">3.   $300</string>
+    <string name="l4">4.   $500</string>
+    <string name="l5">5.   $1.000</string>
+    <string name="l6">6.   $2.000</string>
+    <string name="l7">7.   $4.000</string>
+    <string name="l8">8.   $8.000</string>
+    <string name="l9">9.   $16.000</string>
+    <string name="l10">10.   $32.000</string>
+    <string name="l11">11.   $64.000</string>
+    <string name="l12">12.   $125.000</string>
+    <string name="l13">13.   $250.000</string>
+    <string name="l14">14.   $500.000</string>
+    <string name="l15">15.   $1 MILLION</string>
+
+    <string name="lose">You\nLose</string>
+    <string name="restart">Начать сначала</string>
+    <string name="exit">Выход</string>
+    <string name="win">You\nWin</string>
+
+
+</resources>

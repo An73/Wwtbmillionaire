@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    android:background="@drawable/call_background">
+
+
+    <Button
+        android:id="@+id/crowd_ok"
+        android:background="@drawable/lbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="OK"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/crowd_d"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/crowd_ok"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#faa157"/>
+
+    <TextView
+        android:id="@+id/crowd_c"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/crowd_d"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#faa157"/>
+
+    <TextView
+        android:id="@+id/crowd_b"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/crowd_c"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#faa157"/>
+
+    <TextView
+        android:id="@+id/crowd_a"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/crowd_b"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#faa157"/>
+
+</RelativeLayout>
